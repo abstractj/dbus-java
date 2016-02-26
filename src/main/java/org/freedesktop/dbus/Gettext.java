@@ -23,7 +23,7 @@ import java.util.ResourceBundle;
 public class Gettext
 {
    private static ResourceBundle myResources =
-      ResourceBundle.getBundle("dbusjava_localized");
+      ResourceBundle.getBundle("en_US");
    public static String _(String s) {
       return myResources.getString(s);
    }
